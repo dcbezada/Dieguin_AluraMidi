@@ -33,7 +33,7 @@ function tocaSomPom () {
  }
  document.querySelector('.tecla_toim').onclick = tocaSomToim
  
- 
+
  function tocaSomSplash () {
     document.querySelector('#som_tecla_splash').play();
    
@@ -61,5 +61,10 @@ function tocaSomPom () {
  }
  document.querySelector('.tecla_tic').onclick = tocaSomTic
  
+ function tocaSomTom () {
+    document.querySelector('#som_tecla_tom').play();
+   
+ }
+ document.querySelector('.tecla_tom').onclick = tocaSomTom
  
  
